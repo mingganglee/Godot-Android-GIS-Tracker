@@ -1,8 +1,17 @@
 # Godot Android GIS Tracker
 
+## Refre
+
+- [godot_gps](https://github.com/seagsm/godot_gps)
+- [Advanced Godot | Creating Custom Android Modules](https://www.youtube.com/watch?v=a6MDzdqC5a0)
+
 ## Example
 
 - [GISTrackerExample](https://github.com/lminggang/Godot-Android-GIS-Tracker/tree/main/example)
+
+## Notice
+
+Android device location permission enabled
 
 ## How to use
 
