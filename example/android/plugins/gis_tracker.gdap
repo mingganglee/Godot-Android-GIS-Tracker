@@ -1,0 +1,5 @@
+[config]
+
+name="GISTracker"
+binary_type="local"
+binary="gis_tracker-debug.aar"

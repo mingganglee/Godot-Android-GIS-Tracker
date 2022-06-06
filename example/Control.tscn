@@ -1,0 +1,73 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Control.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Layout" type="VBoxContainer" parent="."]
+margin_right = 106.0
+margin_bottom = 262.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Lat" type="Label" parent="Layout"]
+margin_right = 200.0
+margin_bottom = 14.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Lon" type="Label" parent="Layout"]
+margin_top = 18.0
+margin_right = 200.0
+margin_bottom = 32.0
+
+[node name="Accuracy" type="Label" parent="Layout"]
+margin_top = 36.0
+margin_right = 200.0
+margin_bottom = 50.0
+
+[node name="Bearing" type="Label" parent="Layout"]
+margin_top = 54.0
+margin_right = 200.0
+margin_bottom = 68.0
+
+[node name="Speed" type="Label" parent="Layout"]
+margin_top = 72.0
+margin_right = 200.0
+margin_bottom = 86.0
+
+[node name="GpsTime" type="Label" parent="Layout"]
+margin_top = 90.0
+margin_right = 200.0
+margin_bottom = 104.0
+
+[node name="Altitude" type="Label" parent="Layout"]
+margin_top = 108.0
+margin_right = 200.0
+margin_bottom = 122.0
+
+[node name="NetworkState" type="Label" parent="Layout"]
+margin_top = 126.0
+margin_right = 200.0
+margin_bottom = 140.0
+
+[node name="GpsState" type="Label" parent="Layout"]
+margin_top = 144.0
+margin_right = 200.0
+margin_bottom = 158.0
+
+[node name="DisplayGISInfo" type="Button" parent="Layout"]
+margin_top = 162.0
+margin_right = 200.0
+margin_bottom = 262.0
+rect_min_size = Vector2( 200, 100 )
+text = "DisplayGISInfo"
+[connection signal="pressed" from="Layout/DisplayGISInfo" to="." method="_on_DisplayGISInfo_pressed"]
