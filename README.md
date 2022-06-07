@@ -11,7 +11,8 @@
 
 ## Notice
 
-Android device location permission enabled
+- Android device location permission enabled
+- Godot Engine Version (Release has version number)
 
 ## How to use
 
