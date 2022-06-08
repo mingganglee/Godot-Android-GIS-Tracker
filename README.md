@@ -13,6 +13,7 @@
 
 - Android device location permission enabled
 - Godot Engine Version (Release has version number)
+- GPS is WGS84
 
 ## How to use
 
